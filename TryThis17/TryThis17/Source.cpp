@@ -27,7 +27,7 @@ int main()
 	//display the contents of the array
 	displayArray(sales, 4);
 
-	//system("pause");
+	system("pause");
 	return 0;
 }	//end of main function
 
