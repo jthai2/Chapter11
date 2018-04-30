@@ -37,7 +37,7 @@ void displayAverage(double rainAmt[], int elements)
 	double avg = 0.0;
 	for (int x = 0; x < elements; x += 1)
 		total = total + rainAmt[x];
-	//end for
+
 	avg = total / elements;
 
 	cout << "Average rainfall: " << avg << endl;
@@ -61,8 +61,6 @@ void displayLow(double rainAmt[], int elements)
 		lowest = rainAmt[x];
 
 	cout << "Lowest rainfall: " << lowest << endl;
-	//end if
-	//end for
 }  //end of displayLow function
 
 int main()
