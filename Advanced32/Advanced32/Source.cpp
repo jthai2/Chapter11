@@ -17,7 +17,7 @@ int main()
 	cin >> pointsPossible;
 
 	//declare arrays and fill with data
-	double minPoints[5] = { 0, pointsPossible * .60, pointsPossible * .70, pointsPossible * .80, pointsPossible * .90 };
+	double minPoints[5] = { 0, pointsPossible * .6, pointsPossible * .7, pointsPossible * .8, pointsPossible * .9 };
 	double maxPoints[5] = { pointsPossible * .59, pointsPossible * .69, pointsPossible * .79, pointsPossible * .89, pointsPossible };
 	char grade[5] = { 'F', 'D', 'C', 'B', 'A' };
 
