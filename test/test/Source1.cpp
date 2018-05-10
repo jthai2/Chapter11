@@ -1,5 +1,5 @@
-#include <cstdio>
-#include <cstdlib>
+//Shop(
+
 #include <iostream>
 #include <string>
 
